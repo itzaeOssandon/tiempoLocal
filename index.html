@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo Local</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>El Tiempo</h1>
+        <nav>
+            <a href="#">Arica</a>
+            <a href="#">Valparaíso</a>
+            <a href="#">Valdivia</a>
+        </nav>
+    </header>
+    <!-- CONTENIDO -->
+    <main>
+        <div class="container">
+            <section>
+                <h3>Santiago</h3>
+                <div>
+                    <p>ver temperatura en</p>
+                    <select>
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </div>
+            </section>
+            <section class="separador"></section>
+            <!-- TARJETAS -->
+            <section class="tarjetas">
+                <!-- HOY -->
+                <div class="tarjeta">
+                    <h3>Hoy</h3>
+                    <img src="img/lluvia.png">
+                    <p>lluvia</p>
+                    <div>
+                        <p>18°</p>
+                        <p>24°</p>
+                    </div>
+                </div>
+                <!-- MAÑANA -->
+                <div class="tarjeta">
+                    <h3>Mañana</h3>
+                    <img src="img/soleado.png">
+                    <p>soleado</p>
+                    <div>
+                        <p>19°</p>
+                        <p>27°</p>
+                    </div>
+                </div>
+                <!-- JUEVES -->
+                <div class="tarjeta">
+                    <h3>Jueves</h3>
+                    <img src="img/nublado.png">
+                    <p>nublado</p>
+                    <div>
+                        <p>16°</p>
+                        <p>21°</p>
+                    </div>
+                </div>
+                <!-- VIERNES -->
+                <div class="tarjeta">
+                    <h3>Viernes</h3>
+                    <img src="img/soleado.png">
+                    <p>soleado</p>
+                    <div>
+                        <p>21°</p>
+                        <p>26°</p>
+                    </div>
+                </div>
+            </section>
+            <!-- COOKIES -->
+            <section class="cookies">
+                <img src="img/cookie.png">
+                <div>
+                    <h4>Política de cookies</h4>
+                    <p>Nuestro sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web.
+                        <a href="#">Leer más...</a>
+                    </p>
+                </div>
+                <button id="btnCookies">Aceptar</button>
+            </section>   
+        </div>     
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
